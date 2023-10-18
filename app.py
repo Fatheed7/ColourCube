@@ -1,6 +1,7 @@
 from flask import Flask, send_file, request, render_template
 from PIL import Image
 from io import BytesIO
+import os
 
 if os.path.exists("env.py"):
     import env
