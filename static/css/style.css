@@ -8,3 +8,8 @@ main {
 li {
     list-style-type: none;
 }
+
+img, h1, h2 {
+    padding: 10px;
+}
+
