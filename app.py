@@ -37,10 +37,10 @@ def check_values(h, w, r, g, b):
         w > 150: "Please enter a width below 100 pixels",
         not isinstance(r, int) or not isinstance(g, int) or not isinstance(
             b, int): (
-                "Please enter valid integers for the"
+                "Please enter valid integers for the "
                 "red, green, and blue values."),
         not (0 <= r <= 255) or not (0 <= g <= 255) or not (
-            0 <= b <= 255): ("Please enter red, green, and blue"
+            0 <= b <= 255): ("Please enter red, green, and blue "
                              "values between 0 and 255.")
     }
     return switch.get(True, None)
