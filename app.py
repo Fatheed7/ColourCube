@@ -33,8 +33,8 @@ def generate_image(h, w, r, g, b):
 
 def check_values(h, w, r, g, b):
     switch = {
-        h > 150: "Please enter a height below 100 pixels",
-        w > 150: "Please enter a width below 100 pixels",
+        h > 150: "Please enter a height below 150 pixels",
+        w > 150: "Please enter a width below 150 pixels",
         not isinstance(r, int) or not isinstance(g, int) or not isinstance(
             b, int): (
                 "Please enter valid integers for the "
